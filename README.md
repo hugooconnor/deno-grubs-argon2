@@ -73,8 +73,9 @@ After install run `--help` to inspect all possible commands.
 
 ## Permissions
 
-The library automatically downloads the static library and calls the static library's functions
-via FFI(Foreign Function Interface) API ([Deno: ffi docs](https://deno.land/manual@v1.30.0/runtime/ffi_api)) and it
+The library automatically downloads the static library and calls the static
+library's functions via FFI(Foreign Function Interface) API
+([Deno: ffi docs](https://deno.land/manual@v1.30.0/runtime/ffi_api)) and it
 requires `--allow-read`, `--allow-write`, `--allow-net` and `--allow-ffi`.
 
 <details>
